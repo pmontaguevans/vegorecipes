@@ -6,17 +6,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="wrapper">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Coming soon, until then stay tuned!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/vego.recipes"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Follow us on {' '}<span> Instagram</span>
+          {/* Follow us on <img src={logo} className="App-logo" alt="logo" /> */}
         </a>
       </header>
     </div>
