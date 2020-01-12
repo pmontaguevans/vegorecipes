@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Follow us on {' '}<span> Instagram</span>
+          Follow us on<span> Instagram</span>
           {/* Follow us on <img src={logo} className="App-logo" alt="logo" /> */}
         </a>
       </header>
