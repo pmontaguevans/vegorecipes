@@ -47,6 +47,13 @@ header p {
   -webkit-box-shadow: 0px 2px 6px 4px rgba(8,28,128,0.62);
   -moz-box-shadow: 0px 2px 6px 4px rgba(8,28,128,0.62);
   box-shadow: 0px 2px 6px 4px rgba(8,28,128,0.62);
+  transition: all .3s ease;
+  transform: scale(1);
+}
+
+.App-link:hover {
+    transform: scale(.9) perspective(1px);
+
 }
 
 .App-link span {
