@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="Logo-wrapper">
+          <img src={logo} className="App-logo-text" alt="logo" />
           <img src={logo_text} className="App-logo" alt="logo" />
         </div>
         <p>
