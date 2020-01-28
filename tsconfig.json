@@ -13,5 +13,5 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "exclude": ["dist"]
+  "exclude": ["dist", "client"]
 }

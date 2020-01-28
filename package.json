@@ -2,7 +2,7 @@
   "name": "vego-recipes",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -14,7 +14,7 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "tsc && NODE_ENV=development node dist/server.js",
+    "start": "tsc && node dist/app.js",
     "test": "NODE_ENV=test jest --runInBand",
     "tsc": "tsc"
   }
